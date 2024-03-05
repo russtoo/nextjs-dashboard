@@ -35,7 +35,7 @@ export type State = {
 };
 
 //AUTH
-export async function authenticate(
+/*export async function authenticate(
     prevState: string | undefined,
     formData: FormData,
   ) {
@@ -52,7 +52,7 @@ export async function authenticate(
       }
       throw error;
     }
-}
+} */
 
 // DELETE INVIOCE
 export async function deleteInvoice(id: string) {
